@@ -1,0 +1,49 @@
+# Build and distribution directories
+build/
+dist/
+
+# PyInstaller spec files (exclude only build artifacts, not project config)
+SpeedTest.spec
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.pid
+
+# Test and coverage files
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution packages
+*.egg-info/
+*.dist-info/
+
+# Project-specific
+logo.png
+last_result.json
+history.json
+settings.json
