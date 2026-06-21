@@ -8,8 +8,6 @@ A modern Windows desktop application for **network speed testing** and **ad bloc
 - Measures **Download**, **Upload**, **Ping**, and **Jitter**
 - Animated circular gauge with real-time progress
 - Automatic ISP and location detection via IP
-- Local history of the last 50 tests
-- Auto-start test option on launch
 
 ### Ad Blocker Test
 - Tests ad-blocking effectiveness in real time
