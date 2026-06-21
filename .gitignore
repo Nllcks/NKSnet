@@ -4,6 +4,7 @@ dist/
 
 # PyInstaller spec files (exclude only build artifacts, not project config)
 SpeedTest.spec
+NKSnet.spec
 
 # Python cache and bytecode
 __pycache__/

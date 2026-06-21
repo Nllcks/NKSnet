@@ -2,6 +2,10 @@
 
 A modern Windows desktop application for **network speed testing** and **ad blocker testing**, built with Python and PySide6.
 
+## Download
+
+[**⬇️ Download NKSnet.exe**](https://github.com/Nllcks/NKSnet/releases/download/v1.0.0/NKSnet.exe) — Just download and run! No installation required.
+
 ## Features
 
 ### Network Speed Test
@@ -24,18 +28,13 @@ A modern Windows desktop application for **network speed testing** and **ad bloc
 
 ## Requirements
 
-- Python 3.10+
-- Windows (tested on Windows 10/11)
+- Windows 10/11
+- No Python required for the executable version
 
-## Installation
+## Run from Source
 
 ```powershell
 pip install -r requirements.txt
-```
-
-## Usage
-
-```powershell
 python run.py
 ```
 
@@ -43,10 +42,10 @@ python run.py
 
 ```powershell
 pip install pyinstaller
-python -m PyInstaller --onefile --windowed --name SpeedTest --hidden-import speedtest run.py
+python -m PyInstaller --onefile --windowed --name NKSnet --hidden-import speedtest run.py
 ```
 
-The executable will be at `dist/SpeedTest.exe`.
+The executable will be at `dist/NKSnet.exe`.
 
 ## Project Structure
 
